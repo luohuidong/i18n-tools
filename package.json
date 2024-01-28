@@ -22,6 +22,9 @@
   "author": "",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
+    "@types/babel__generator": "^7.6.8",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.20.5",
     "@types/node": "^20.11.7",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
@@ -36,6 +39,9 @@
   "dependencies": {
     "@babel/generator": "^7.23.6",
     "@babel/parser": "^7.23.9",
-    "@babel/traverse": "^7.23.9"
+    "@babel/template": "^7.23.9",
+    "@babel/traverse": "^7.23.9",
+    "@babel/types": "^7.23.9",
+    "@vue/compiler-sfc": "^3.4.15"
   }
 }
