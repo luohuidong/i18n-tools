@@ -1,17 +1,19 @@
 <script setup lang="ts">
-const text = "小";
-const name = "张" + text + "三";
-const greeting = `你好，${name}！`;
+const text = "三";
+const name = "张" + text + "丰";
 const obj = {
-  name: "张三",
   age: 25,
 };
+function a() {
+  return "haha";
+}
+const greeting = `这位是${name}。他今年${obj.age}岁了。${a()}`;
 </script>
 
 <template>
   <div>
     <ul>
-      <li>{{ obj.name + obj.age }}</li>
+      <li>{{ name }}</li>
       <li>{{ greeting }}</li>
     </ul>
   </div>
